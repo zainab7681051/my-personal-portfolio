@@ -2,14 +2,13 @@
 const thisYear=new Date().getFullYear();
 </script>
 <template>
-    <footer class="bg-back-800 px-10 pt-24 pb-12">
+    <footer class="bg-back-900 px-10 pt-24 pb-12">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/2">
                 <h2 class="mb-5 text-4xl font-bold text-white">Info</h2>
                 <h3 class="mb-2 text-2xl font-bold">Zainab, web developer</h3>
                 <p>zainabsanar@gmail.com</p>
-                <p>+964 783 489 4341</p>
                 <p>Erbil, Kurdistan Region</p>
                 <p>Iraq</p>
               </div>

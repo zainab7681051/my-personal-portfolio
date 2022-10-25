@@ -5,7 +5,7 @@
 @layer components{
     .custom-icon{
         @apply relative flex items-center 
-        justify-center h-16 w-16
+        justify-center h-14 w-14
         mt-4 mb-2 mx-auto shadow-lg
         bg-back-600
         text-primary 
@@ -25,4 +25,17 @@
         transition-all duration-300
         hover:bg-primary
     }
+    .spacer{
+        @apply w-full aspect-[960/200] bg-cover bg-center bg-no-repeat
+    }
+    .wavey{
+        @apply bg-[url('./assets/wave-haikei.svg')]
+    }
+    .wavey-2{
+        @apply bg-[url('./assets/wave-haikei-2.svg')]
+    }
+    .wavey-3{
+        @apply bg-[url('./assets/wave-haikei-3.svg')]
+    }
+    
 }

@@ -8,20 +8,29 @@ import footercomp from './components/footercomp.vue'
 </script>
 
 <template>
-  <div class="grid grid-cols-12 gap-0">
+  <div class="grid grid-cols-12">
     <div class="col-span-1">
       <nav-bar/>
     </div>
     
     <div class="col-span-11">
+      
       <home/>
-      <!-- curvy-divider -->
+
+      <div class="spacer wavey"></div>
+      
       <skills/>
-      <!-- curvy-divider -->
+
+      <div class="spacer wavey-2"></div>
+
       <projects/>
-      <!-- curvy-divider -->
+      
+      <div class="spacer wavey-3"></div>
+
       <contact/>
-      <!-- curvy-divider -->        
+
+      <div class="spacer wavey"></div>
+
       <footercomp/>
     </div>
   </div>

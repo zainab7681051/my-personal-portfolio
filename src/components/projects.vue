@@ -1,5 +1,5 @@
 <template>
-    <section id="projects" class="px-10 pt-36 pb-16 bg-back-900">
+    <section id="projects" class="px-10 pt-20 bg-back-900">
           <div class="container">
             <div class="w-full px-4">
               <div class="mx-auto mb-16 max-w-xl text-center">

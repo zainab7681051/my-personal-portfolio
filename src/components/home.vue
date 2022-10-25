@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-
+import bgCircleScatter from './bg-circle-scatter.vue'
 </script>
 
 <style scoped lang="">

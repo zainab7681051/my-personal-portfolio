@@ -8,7 +8,7 @@ defineProps({
 
 <template>
     <a :href="idprop" className="custom-icon group">
-        <iconify-icon :icon="iconName" width="52" height="52"></iconify-icon>
+        <iconify-icon :icon="iconName" width="42" height="42"></iconify-icon>
         <span class="tooltip group-hover:scale-100">
             {{tip}}
         </span>
