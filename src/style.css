@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .custom-icon{
+        @apply relative flex items-center 
+        justify-center h-16 w-16
+        mt-4 mb-2 mx-auto shadow-lg
+        bg-back-600
+        text-primary 
+        hover:bg-primary
+        hover:text-slate-100
+        rounded-3xl hover:rounded-xl
+        transition-all cursor-pointer
+        duration-300 ease-linear; 
+    }
+    .tooltip{
+        @apply absolute w-auto left-14 text-sm text-slate-100
+        bg-back-600 p-2 m-2.5 min-w-max shadow-md rounded-md font-bold
+        transition-all duration-200 origin-left scale-0
+    }
+    .custom-btn{
+        @apply mb-3 w-auto p-2 inline-block text-slate-100 rounded-xl 
+        transition-all duration-300
+        hover:bg-primary
+    }
+}
