@@ -14,7 +14,9 @@ import footercomp from './components/footercomp.vue'
     </div>
     
     <div class="col-span-11">
-      
+
+      <div class="spacer wavey-top"></div>
+
       <home/>
 
       <div class="spacer wavey"></div>

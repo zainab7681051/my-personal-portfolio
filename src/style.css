@@ -37,5 +37,8 @@
     .wavey-3{
         @apply bg-[url('./assets/wave-haikei-3.svg')]
     }
+    .wavey-top{
+        @apply bg-[url('./assets/wave-haikei-top.svg')]
+    }
     
 }
