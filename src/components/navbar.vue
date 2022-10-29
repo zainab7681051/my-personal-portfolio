@@ -1,13 +1,14 @@
 <script setup>
 import navicon from'./navicon.vue'
-
-const download=()=>{
+import {storageRef} from '../firebase.js'
+import {getDownloadURL} from 'firebase/storage'
+const download=async ()=>{
     try{
-        window.open('../../public/cv.pdf', '_blank'); 
-        return true;
+        const download_url=await getDownloadURL(storageRef)
+        window.open(download_url, '_blank'); 
+        console.log(download_url)
     }catch(e){
         console.log(e)
-        return false;
     }
 }
 </script>

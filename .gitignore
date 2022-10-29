@@ -160,3 +160,4 @@ $RECYCLE.BIN/
 
 .vscode/*
 !.vscode/extensions.json
+.pdf

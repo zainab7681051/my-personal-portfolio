@@ -46,12 +46,9 @@
 
 <script>
 import emailjs from '@emailjs/browser'
-import useVuelidate from '@vuelidate/core'
-import { required, email, minLength } from '@vuelidate/validators'
 export default{
   data(){
     return {
-      v$:useVuelidate(),
       name:'',
       email:'',
       message:'',
