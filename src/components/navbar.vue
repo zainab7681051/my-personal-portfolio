@@ -5,8 +5,7 @@ import {getDownloadURL} from 'firebase/storage'
 const download=async ()=>{
     try{
         const download_url=await getDownloadURL(storageRef)
-        window.open(download_url, '_blank'); 
-        console.log(download_url)
+        window.open(download_url, '_blank');
     }catch(e){
         console.log(e)
     }
