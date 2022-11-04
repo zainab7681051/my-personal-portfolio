@@ -15,21 +15,21 @@ const openMenu=()=>{
 
 <template>
   <div class="grid grid-cols-12">
-    <div class="
-    md:visible
-    md:col-span-1 
-    duration-200 transition-all ease-in-out
-    origin-left"
+
+    <!-- sidebar -->
+    <div
+    class="md:grid md:col-span-1"
     :class="open ?
-    'colspan-1 visible':
+    'col-span-1 grid':
     'col-span-0 hidden'">
       <nav-bar/>
     </div>
     
+    <!-- main sections -->
     <div class="md:col-span-11"
     :class="open ? 'col-span-11':'col-span-12'">
 
-      <div class="spacer wavey-top"></div>
+      <div id="home" class="spacer wavey-top"></div>
 
       <!-- sidebar button for small screen -->
       <button 
@@ -39,8 +39,8 @@ const openMenu=()=>{
       bg-back-600 
       fixed 
       bottom-20
-      h-10
-      w-10
+      h-12
+      w-12
       justify-center
       flex justify-center items-center
       rounded-full
@@ -75,3 +75,5 @@ const openMenu=()=>{
   </div>
 </template>
 
+<style scoped>
+</style>

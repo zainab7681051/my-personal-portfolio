@@ -5,7 +5,7 @@
               <div class="mx-auto mb-16 max-w-xl text-center">
                 <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
                 <h2 class="mb-4 text-3xl font-bold text-slate-100 sm:text-4xl lg:text-5xl">send an email</h2>
-                <p class="text-md font-medium text-secondary md:text-lg">feel free to contact with me by sending me a message and I will reply as soon as possible.</p>
+                <p class="text-md font-medium text-secondary md:text-lg">feel free to contact me by sending a message, and I will reply as soon as possible.</p>
               </div>
             </div>
             <form>

@@ -6,19 +6,19 @@
             <h4 class="mb-3 text-lg font-bold uppercase text-primary">Technical Skills</h4>
             <h3 class="mb-4 max-w-md text-2xl font-bold text-slate-100 lg:text-3xl">Front-End 🎨</h3>
             <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
-              HTML, CSS/Tailwind-CSS, Javascript(ES6), Typescript, Vue, Vuex, Vuetify
+              HTML, CSS (Tailwind-CSS), Javascript (ES6), Typescript, Vue, Vuex, Vuetify, Vue CLI, Vite, Server-Side-Rendering
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3 class="mb-4 text-2xl font-semibold text-white lg:pt-10 lg:text-3xl">Back-End 🛠️</h3>
             <p class="mb-6 text-base font-medium text-secondary lg:text-lg">
-              Nodejs, Express, JWT, JOI, Passport/JWT-Passport, Bcrypt, Sequelize ORM, PostgreSQL, Firebase/Cloud Firestore
+              Nodejs, Express, Authentication, Web Security, Object Oriented Mapping (Sequelize ORM), Relational Database (PostgreSQL), NoSql (Firebase/Cloud Firestore)
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3 class="mb-4 text-2xl font-semibold text-white lg:pt-10 lg:text-3xl">Others 💻</h3>
             <p class="mb-6 text-base font-medium text-secondary lg:text-lg">
-              Git, NPM/Yarn, Vue CLI/Vite, Building, Debugging, Hosting & Deploying, GitHub Actions, Github Pages, Docker, DevOps
+              NPM/Yarn, Git, Github, Building, Debugging, Hosting & Deploying, GitHub Actions (CI/CL), Github Pages, Docker 
             </p>
             <div class="flex items-center">
               <!-- github -->
