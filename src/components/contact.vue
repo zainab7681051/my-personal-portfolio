@@ -76,12 +76,12 @@ export default{
             from_email: this.email,
             message: this.message,
           }
-          const data = {
-            service_id: import.meta.env.VITE_SERVICE_ID,
-            template_id: import.meta.env.VITE_TEMPLATE_ID,
-            public_key: import.meta.env.VITE_PUBLIC_KEY,
-          }
-          const res=await emailjs.send(data.service_id, data.template_id, form, data.public_key)
+
+          const SERVICE_ID='service_k5e6q6j'
+          const TEMPLATE_ID='template_7cjnib2'
+          const PUBLIC_KEY='2oi10VTZzujXopEAa'
+
+          const res=await emailjs.send(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY)
           if(res.status==200)
           {
             this.sent=true
