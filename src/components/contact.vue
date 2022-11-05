@@ -70,7 +70,6 @@ export default{
        try {
           // statements
           this.errors={}
-          this.sent=false
           const form = {
             from_name: this.name,
             from_email: this.email,
@@ -101,6 +100,7 @@ export default{
           element.classList.remove('cursor-progress');
         }
       }else{
+        this.sent=false
         element.classList.remove('cursor-progress');
       }
     },
