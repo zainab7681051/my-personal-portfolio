@@ -2,10 +2,9 @@
     <section class="px-10 bg-back-900">
       <div class="container">
           <div class="w-full px-4 items-center text-center ">
-            <h1 class="text-base font-semibold text-primary md:text-xl">Hello there 👋, I am 
+            <h1 class="text-base font-semibold text-primary text-2xl">Hello there 👋, I am 
             <span class="mt-1 block text-4xl font-bold text-dark text-slate-100 lg:text-5xl">Zainab</span></h1>
-            <h2 class="mb-5 mt-3 text-lg font-medium text-secondary lg:text-2xl">And Welcome to my Portfolio!</h2>
-            <p class="mb-10 font-medium leading-relaxed text-secondary">
+            <p class="mt-5 mb-10 font-medium leading-relaxed text-secondary">
             I am a full stack web developer and I can create web-based applications with captivating frontend UI, and operational backend code with maintainble databases</p>
           </div>
       </div>

@@ -1,15 +1,6 @@
 <script setup>
 import navicon from'./navicon.vue'
-import {storageRef} from '../firebase.js'
-import {getDownloadURL} from 'firebase/storage'
-const download=async ()=>{
-    try{
-        const download_url=await getDownloadURL(storageRef)
-        window.open(download_url, '_blank');
-    }catch(e){
-        console.log(e)
-    }
-}
+import { Icon } from '@iconify/vue';
 </script>
 
 <template>
@@ -18,9 +9,16 @@ const download=async ()=>{
             
             <navicon iconName="carbon:earth-filled" idprop="#home" tip="Home"/>
             <navicon iconName="carbon:skill-level-advanced" idprop="#skills" tip="My Technical Skills"/>
-            <navicon iconName="fluent-mdl2:work" idprop="#projects" tip="My Work & Projects"/>
+            <navicon iconName="bi:briefcase-fill" idprop="#projects" tip="My Work & Projects"/>
             <navicon iconName="entypo:email" idprop="#contact" tip="Contact Me"/>
-            <navicon @click="download()" iconName="bi:cloud-download-fill" tip="Download my CV"/>
+            
+            <a href="https://firebasestorage.googleapis.com/v0/b/zainab-portfolio.appspot.com/o/Resume.pdf?alt=media&token=b1a32688-8e90-49f5-8014-129dbcd561c6" 
+            target="_blank" className="custom-icon group">
+                <icon icon="bi:cloud-download-fill" width="42" height="42"></icon>
+                <span class="tooltip group-hover:scale-100">
+                    Download my CV
+                </span>
+            </a>
             
         </div>
 

@@ -28,7 +28,7 @@
                 class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 title="GitHub"
                 >
-                <iconify-icon icon="akar-icons:github-fill" width="24" height="24"></iconify-icon>
+                <icon icon="akar-icons:github-fill" width="24" height="24"></icon>
                 </a>
                 <!-- LinkedIn -->
                 <a
@@ -37,7 +37,8 @@
                     class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                     title="LinkedIn">
                  
-                <iconify-icon icon="akar-icons:linkedin-box-fill" width="24" height="24"></iconify-icon>   
+                <icon icon="akar-icons:linkedin-box-fill" width="24" height="24">
+                </icon>   
                 </a>
                 <!-- Freelancer -->
                 <a
@@ -46,7 +47,7 @@
                     class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                     title="Freelancer.com">
                  
-                <iconify-icon icon="simple-icons:freelancer" width="24" height="24"></iconify-icon>   
+                <icon icon="simple-icons:freelancer" width="24" height="24"></icon>   
                 </a>
             </div>
             </div>
@@ -56,6 +57,7 @@
 </template>
 
 <script setup>
+import { Icon } from '@iconify/vue';
 </script>
 <style lang="">
     

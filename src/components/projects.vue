@@ -1,3 +1,7 @@
+<script setup>
+import { Icon } from '@iconify/vue';
+</script>
+
 <template>
     <section id="projects" class="px-10 pt-20 bg-back-900">
           <div class="container">
@@ -12,109 +16,124 @@
             </div>
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
               <div class="mb-12 p-4 md:w-1/2">
-                <div class="overflow-hidden rounded-md shadow-md relative group">
-                  <img src="../assets/free-documentaries.png" alt="free-documentaries.png" width="w-full"/>
-                  <a href="https://github.com/zainab7681051/free-documentaries"
-                  target="_blank" 
-                  class="absolute bottom-0 p-2 m-2 
-                  bg-back-600
-                  text-primary
-                  border border-primary 
-                  hover:bg-primary
-                  hover:text-slate-100
-                  rounded-3xl hover:rounded-xl
-                  transition-all cursor-pointer
-                  scale-0 transition-all ease-linear origin-bottom
-                  duration-200 group group-hover:scale-100" title="source code on github">
-                    &lt;>
-                  </a>
-
-                  <a 
-                  href="https://free-documentaries.onrender.com/"
-                  target="_blank"
-                  class="absolute bottom-0 right-0 p-2 m-2 ml-5
-                  bg-back-600
-                  text-primary 
-                  hover:bg-primary
-                  hover:text-slate-100
-                  border border-primary
-                  rounded-3xl hover:rounded-xl
-                  transition-all cursor-pointer
-                  scale-0 transition-all ease-linear origin-bottom
-                  duration-200 group group-hover:scale-100" title="https://free-documentaries.onrender.com/">
-                   live
-                   <span class="animate-ping absolute bg- inline-flex h-2 w-2 rounded-full bg-red-700 opacity-100"></span>
-                  </a>
+                <div class="overflow-hidden rounded-md">
+                  <img src="../assets/free-documentaries.png" alt="free-documentaries.png" width="900"/>
                 </div>
                 <h3 class="mt-5 mb-3 text-xl font-semibold text-white">Free-Documentaries</h3>
                 <p class="text-base font-medium text-secondary">A web App for viewing free documentaries fetched from various YouTube Channels.</p>
+                <div class="flex">
+                  <a href="https://github.com/zainab7681051/free-documentaries"
+                    target="_blank" title="view code on github">
+                    <icon icon="akar-icons:github-fill"
+                    width="24" height="24" 
+                    class="h-10 w-10 
+                    relative flex items-center 
+                    justify-center
+                    mt-2 mb-2 mx-auto
+                    p-2
+                    bg-back-900
+                    text-primary 
+                    hover:bg-primary
+                    hover:text-back-600
+                    rounded-xl 
+                    transition-all cursor-pointer
+                    duration-300 ease-linear;"/>
+                  </a>
+                  <a href="https://free-documentaries.onrender.com/"
+                    target="_blank" title="visit this app">
+                    <icon icon="codicon:live-share"
+                    width="24" height="24" 
+                    class="h-10 w-10 
+                    relative flex items-center 
+                    justify-center
+                    mt-2 mb-2 mx-auto
+                    p-2
+                    bg-back-900
+                    text-primary 
+                    hover:bg-primary
+                    hover:text-back-600
+                    rounded-xl 
+                    transition-all cursor-pointer
+                    duration-300 ease-linear;"/>
+                  </a>
+              </div>
               </div>
               
               <div class="mb-12 p-4 md:w-1/2">
-                <div class="overflow-hidden rounded-md shadow-md relative group">
-                  <img src="../assets/pizza-delivery.png" alt="pizza-delivery.png" width="w-full" />
-                  <a href="https://github.com/zainab7681051/pizza-delivery"
-                  target="_blank" 
-                  class="absolute bottom-0 p-2 m-2 
-                  bg-back-600
-                  text-primary 
-                  hover:bg-primary
-                  hover:text-slate-100
-                  border border-primary
-                  rounded-3xl hover:rounded-xl
-                  transition-all cursor-pointer
-                  scale-0 transition-all ease-linear origin-bottom
-                  duration-200 group group-hover:scale-100" title="source code on github">
-                    &lt;>
-                  </a>
+                <div class="overflow-hidden rounded-md shadow-md">
+                  <img src="../assets/pizza-delivery.png" alt="pizza-delivery.png" width="900" />
 
-                  <a 
-                  href="https://pizza-delivery-5201d.web.app/"
-                  target="_blank"
-                  class="absolute bottom-0 right-0 p-2 m-2 ml-5
-                  bg-back-600
-                  text-primary 
-                  hover:bg-primary
-                  hover:text-slate-100
-                  border border-primary
-                  rounded-3xl hover:rounded-xl
-                  transition-all cursor-pointer
-                  scale-0 transition-all ease-linear origin-bottom
-                  duration-200 group group-hover:scale-100" title="https://pizza-delivery-5201d.web.app/">
-                   live
-                   <span class="animate-ping absolute bg- inline-flex h-2 w-2 rounded-full bg-red-700 opacity-100"></span>
-                  </a>
                 </div>
                 <h3 class="mt-5 mb-3 text-xl font-semibold text-white">Pizza-Delivery</h3>
                 <p class="text-base font-medium text-secondary">A wep app for pizzerias. A user can log in and order pizza's and their order is saved in the cloud database.</p>
+
+                <div class="flex">
+                  <a href="https://github.com/zainab7681051/pizza-delivery"
+                    target="_blank" title="view code on github">
+                    <icon icon="akar-icons:github-fill"
+                    width="24" height="24" 
+                    class="h-10 w-10 
+                    relative flex items-center 
+                    justify-center
+                    mt-2 mb-2 mx-auto
+                    p-2
+                    bg-back-900
+                    text-primary 
+                    hover:bg-primary
+                    hover:text-back-600
+                    rounded-xl 
+                    transition-all cursor-pointer
+                    duration-300 ease-linear;"/>
+                  </a>
+                  <a href="https://pizza-delivery-5201d.web.app/"
+                    target="_blank" title="visit this app">
+                    <icon icon="codicon:live-share"
+                    width="24" height="24" 
+                    class="h-10 w-10 
+                    relative flex items-center 
+                    justify-center
+                    mt-2 mb-2 mx-auto
+                    p-2
+                    bg-back-900
+                    text-primary 
+                    hover:bg-primary
+                    hover:text-back-600
+                    rounded-xl 
+                    transition-all cursor-pointer
+                    duration-300 ease-linear;"/>
+                  </a>
+              </div>
               </div>
 
               <div class="mb-12 p-4 md:w-1/2">
-                <div class="overflow-hidden rounded-md shadow-md relative group">
-                  <img src="../assets/todolist.png" alt="todolist.png" width="w-full" />
-
-                  <a href="https://github.com/zainab7681051/simple-to-do-list-app"
-                  target="_blank" 
-                  class="absolute bottom-0 p-2 m-2 
-                  bg-back-600
-                  text-primary 
-                  hover:bg-primary
-                  hover:text-slate-100
-                  border border-primary
-                  rounded-3xl hover:rounded-xl
-                  transition-all cursor-pointer
-                  scale-0 transition-all ease-linear origin-bottom
-                  duration-200 group group-hover:scale-100" title="source code on github">
-                    &lt;>
-                  </a>
+                <div class="overflow-hidden rounded-md shadow-md">
+                  <img src="../assets/todolist.png" alt="todolist.png" width="900" />
                 </div>
                 <h3 class="mt-5 mb-3 text-xl font-semibold text-white">todo app</h3>
                 <p class="text-base font-medium text-secondary">simple todo app for keepig track of your tasks and objectives.</p>
+
+                <div class="flex">
+                  <a href="https://github.com/zainab7681051/simple-to-do-list-app"
+                    target="_blank" title="view code on github">
+                    <icon icon="akar-icons:github-fill"
+                    width="24" height="24" 
+                    class="h-10 w-10 
+                    relative flex items-center 
+                    justify-center
+                    mt-2 mb-2 mx-auto
+                    p-2
+                    bg-back-900
+                    text-primary 
+                    hover:bg-primary
+                    hover:text-back-600
+                    rounded-xl 
+                    transition-all cursor-pointer
+                    duration-300 ease-linear;"/>
+                  </a>
+              </div>
               </div>
             </div>
           </div>
         </section>    
 </template>
 
-<script>
-</script>
