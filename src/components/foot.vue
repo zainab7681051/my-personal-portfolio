@@ -37,7 +37,7 @@ const thisYear=new Date().getFullYear();
                 <a
                 href="https://github.com/zainab7681051/"
                 target="_blank"
-                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full  text-slate-300 hover:bg-primary hover:text-back-600 rounded-xl transition-all cursor-pointer duration-300 ease-linear;"
                 title="GitHub"
                 >
                 <icon icon="akar-icons:github-fill" width="24" height="24"></icon>
@@ -46,7 +46,7 @@ const thisYear=new Date().getFullYear();
                 <a
                     href="https://www.linkedin.com/in/zainab-sanar/"
                     target="_blank"
-                    class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                    class="mr-3 flex h-9 w-9 items-center justify-center rounded-full text-slate-300 hover:bg-primary hover:text-back-600 rounded-xl transition-all cursor-pointer duration-300 ease-linear;"
                     title="LinkedIn">
                  
                 <icon icon="akar-icons:linkedin-box-fill" width="24" height="24"></icon>   
@@ -55,7 +55,7 @@ const thisYear=new Date().getFullYear();
                 <a
                     href="https://www.freelancer.com/u/zainab76810510"
                     target="_blank"
-                    class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                    class="mr-3 flex h-9 w-9 items-center justify-center rounded-full  text-slate-300 hover:bg-primary hover:text-back-600 rounded-xl transition-all cursor-pointer duration-300 ease-linear;"
                     title="Freelancer.com">
                  
                 <icon icon="simple-icons:freelancer" width="24" height="24"></icon>   

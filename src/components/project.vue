@@ -36,22 +36,20 @@ defineProps({
 		    duration-300 ease-linear;"/>
 		  </a>
 		  <a :href=appUrl
-		    target="_blank" title="visit this app">
+		    target="_blank" title="visit this app"
+		    :class="appUrl=='' ? 'disable-link': ''">
 		    <icon icon="codicon:live-share"
 		    width="24" height="24" 
-		    class="h-10 w-10 
-		    relative flex items-center 
-		    justify-center
-		    mt-2 mb-2 mx-auto
-		    p-2
-		    bg-back-900
-		    text-primary 
-		    hover:bg-primary
-		    hover:text-back-600
-		    rounded-xl 
-		    transition-all cursor-pointer
-		    duration-300 ease-linear;"/>
+		    :class="appUrl=='' ? 'h-10 w-10  relative flex items-center  justify-center mt-2 mb-2 mx-auto p-2 bg-back-900 text-slate-400':'h-10 w-10  relative flex items-center  justify-center mt-2 mb-2 mx-auto p-2 bg-back-900 text-primary hover:bg-primary hover:text-back-600 rounded-xl transition-all cursor-pointer duration-300 ease-linear;'"/>
 		  </a>
 		</div>
 	</div>
 </template>
+
+<style scoped>
+.disable-link{
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+</style>

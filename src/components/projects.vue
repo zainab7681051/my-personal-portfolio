@@ -32,7 +32,8 @@ import project from "./project.vue"
             appUrl="https://pizza-delivery-5201d.web.app/"></project>
 
             <project title="todo app" 
-            description="simple todo app for keepig track of your tasks and objectives." 
+            description="simple todo app for keepig track of your tasks and objectives.
+            " 
             imgSrc="todolist.png"
             githubUrl="https://github.com/zainab7681051/simple-to-do-list-app"
             appUrl=""></project>
