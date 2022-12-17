@@ -6,7 +6,7 @@
             <h4 class="mb-3 text-lg font-bold uppercase text-primary">Technical Skills</h4>
             <h3 class="mb-4 max-w-md text-2xl font-bold text-slate-100 lg:text-3xl">Front-End 🎨</h3>
             <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
-              HTML, CSS (Tailwind-CSS), Javascript (ES6), Typescript, Vue, Vuex, Vuetify, Vue CLI, Vite, Server-Side-Rendering
+              HTML, CSS (Tailwind-CSS), Javascript (ES6), Typescript, Vue, Vuex, Vuetify, Vue CLI, Vite, Nuxt
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
