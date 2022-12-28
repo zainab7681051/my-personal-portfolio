@@ -13,6 +13,12 @@ import project from "./project.vue"
             </div>
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
               
+            <project title="PacMan-Game" 
+            description="A basic PacMan game in vanilla Javascript and HTML Canvas Element." 
+            imgSrc="pacman.png"
+            githubUrl="https://github.com/zainab7681051/basic-pac-man-game" 
+            appUrl="https://basic-pacman-game.web.app/"></project>
+
             <project title="Image-Genreator" 
             description="A node express app for generating input-based images using openAI technology." 
             imgSrc="open-ai-image-generator-api.png"
