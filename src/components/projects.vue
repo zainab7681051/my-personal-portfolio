@@ -3,11 +3,11 @@ import project from "./project.vue"
 </script>
 
 <template>
-    <section id="projects" class="px-10 pt-20 bg-back-900">
+    <section class="px-10 pt-20 bg-back-900">
           <div class="container">
             <div class="w-full px-4">
               <div class="mx-auto mb-16 max-w-xl text-center">
-                <h4 class="mb-2 text-lg font-semibold text-primary">Projects</h4>
+                <h4 id="projects" class="mb-2 text-lg font-semibold text-primary">Projects</h4>
                 <h2 class="mb-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Finished Works</h2>
               </div>
             </div>
