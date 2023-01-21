@@ -31,6 +31,7 @@
     
 }
 
+
 .text-shadow-pop-bl:hover {
     -webkit-animation: text-shadow-pop-bl 0.8s both;
             animation: text-shadow-pop-bl 0.8s both;
@@ -38,25 +39,25 @@
 
 @-webkit-keyframes text-shadow-pop-bl {
   0% {
-    text-shadow: 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da;
+    text-shadow: 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da;
     -webkit-transform: translateX(0) translateY(0);
             transform: translateX(0) translateY(0);
   }
   100% {
-    text-shadow: -1px 1px #7289da, -2px 2px #7289da, -3px 3px #7289da, -4px 4px #7289da, -5px 5px #7289da, -6px 6px #7289da, -7px 7px #7289da, -8px 8px #7289da;
-    -webkit-transform: translateX(8px) translateY(-8px);
-            transform: translateX(8px) translateY(-8px);
+    text-shadow: -1px 1px #7289da, -2px 2px #7289da, -3px 3px #7289da, -4px 4px #7289da, -5px 5px #7289da, -6px 6px #7289da, -7px 7px #7289da, -8px 8px #7289da, -9px 9px #7289da, -10px 10px #7289da;
+    -webkit-transform: translateX(10px) translateY(-10px);
+            transform: translateX(10px) translateY(-10px);
   }
 }
 @keyframes text-shadow-pop-bl {
   0% {
-    text-shadow: 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da;
+    text-shadow: 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da, 0 0 #7289da;;
     -webkit-transform: translateX(0) translateY(0);
             transform: translateX(0) translateY(0);
   }
   100% {
-    text-shadow: -1px 1px #7289da, -2px 2px #7289da, -3px 3px #7289da, -4px 4px #7289da, -5px 5px #7289da, -6px 6px #7289da, -7px 7px #7289da, -8px 8px #7289da;
-    -webkit-transform: translateX(8px) translateY(-8px);
-            transform: translateX(8px) translateY(-8px);
+    text-shadow: -1px 1px #7289da, -2px 2px #7289da, -3px 3px #7289da, -4px 4px #7289da, -5px 5px #7289da, -6px 6px #7289da, -7px 7px #7289da, -8px 8px #7289da, -9px 9px #7289da, -10px 10px #7289da;
+    -webkit-transform: translateX(10px) translateY(-10px);
+            transform: translateX(10px) translateY(-10px);
   }
 }
