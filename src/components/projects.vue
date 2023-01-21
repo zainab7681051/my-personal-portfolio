@@ -13,6 +13,13 @@ import project from "./project.vue"
             </div>
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
               
+            <project title="Hero Section Template" 
+            description="a template of a hero section for a web page in vanilla html and css." 
+            imgSrc="here-section-template.png"
+            githubUrl="https://github.com/zainab7681051/hero-section-template" 
+            appUrl="https://zainab7681051.github.io/hero-section-template/">
+            </project>
+
             <project title="PacMan-Game" 
             description="A basic PacMan game in vanilla Javascript and HTML Canvas Element." 
             imgSrc="pacman.png"
