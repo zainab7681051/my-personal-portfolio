@@ -13,6 +13,13 @@ import project from "./project.vue"
             </div>
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
               
+            <project title="Landing Page With GSAP" 
+            description="a simple landing page template in html/css/js with GSAP tool for basic animation on load." 
+            imgSrc="LandingPage.png"
+            githubUrl="https://github.com/zainab7681051/GSAP-Landing-Page" 
+            appUrl="https://zainab7681051.github.io/GSAP-Landing-Page/">
+            </project>
+
             <project title="Hero Section Template" 
             description="a template of a hero section for a web page in vanilla html and css." 
             imgSrc="here-section-template.png"
