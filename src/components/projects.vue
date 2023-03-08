@@ -12,7 +12,14 @@ import project from "./project.vue"
               </div>
             </div>
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
-              
+            
+            <project title="Responsive-Landing-Page-Hero-Section" 
+            description="a responsive landing page in static HTML, CSS and JS with GSAP animation." 
+            imgSrc="responsive-landing-page.png"
+            githubUrl="https://github.com/zainab7681051/Responsive-Landing-Page-Hero-Section" 
+            appUrl="https://zainab7681051.github.io/Responsive-Landing-Page-Hero-Section/">
+            </project>
+  
             <project title="Landing Page With GSAP" 
             description="a simple landing page template in html/css/js with GSAP tool for basic animation on load." 
             imgSrc="LandingPage.png"
