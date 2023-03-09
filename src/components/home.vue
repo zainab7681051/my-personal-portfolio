@@ -4,7 +4,7 @@
           <div class="w-full px-4 items-center text-center ">
             <h1 class="
              text-base font-semibold text-primary text-2xl top-text greet">Hello there 👋, I am 
-            <span class="mt-1 block text-8xl font-bold text-dark text-slate-100
+            <span class="mt-1 block text-7xl md:text-8xl font-bold text-dark text-slate-100
             text-shadow-pop-bl
             outline-black mt-5
             top-text name">Zainab</span></h1>
@@ -22,6 +22,9 @@
     .top-text{
       opacity: 0;
       transform: translateY(-50vh);
+    }
+    .top-text.name{
+    -webkit-text-stroke: 2px #000;
     }
     .bottom-text{
       transform: translateX(110%);
