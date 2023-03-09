@@ -6,13 +6,13 @@
             <h4 class="mb-3 text-lg font-bold uppercase text-primary">Technical Skills</h4>
             <h3 class="mb-4 max-w-md text-2xl font-bold text-slate-100 lg:text-3xl">Front-End 🎨</h3>
             <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
-              HTML, CSS (Tailwind-CSS), Javascript (ES6), Typescript, Vue, Vuex, Vuetify, Vue CLI, Vite, Nuxt
+              HTML, CSS (Tailwind-CSS), Javascript (ES6), Typescript, Vue, Vuex, Vuetify, Vue CLI, Vite, Nuxt, Jest
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3 class="mb-4 text-2xl font-semibold text-white lg:pt-10 lg:text-3xl">Back-End 🛠️</h3>
             <p class="mb-6 text-base font-medium text-secondary lg:text-lg">
-              Nodejs, Express, Authentication, Web Security, Object Oriented Mapping (Sequelize ORM), Relational Database (PostgreSQL), NoSql (Firebase/Cloud Firestore)
+              Nodejs, Express, Authentication, Web Security, Object Oriented Mapping (Sequelize ORM), Relational Database (PostgreSQL), NoSql (Firebase/Cloud Firestore), Jest, SuperTest 
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
@@ -59,6 +59,6 @@
 <script setup>
 import { Icon } from '@iconify/vue';
 </script>
-<style lang="">
-    
+
+<style scoped>
 </style>
