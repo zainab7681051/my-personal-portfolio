@@ -28,6 +28,7 @@ const entryAnime = () => {
 		});
 	tl.to(
 		'.bottom-text', {
+			opacity: 1,
 			x: 0,
 			duration: 1,
 		});

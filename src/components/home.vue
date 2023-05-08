@@ -27,6 +27,7 @@
     -webkit-text-stroke: 2px #000;
     }
     .bottom-text{
-      transform: translateX(110%);
+      opacity: 0;
+      transform: translateX(200vw);
     }
 </style>

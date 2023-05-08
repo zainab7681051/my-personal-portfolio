@@ -13,7 +13,6 @@ export default{
   async mounted(){
     try{
         this.data=allProjects
-        console.log(this.data)
     }catch(e){
         console.error("mounted method",e)
     }
