@@ -61,3 +61,8 @@
             transform: translateX(10px) translateY(-10px);
   }
 }
+
+body{
+  margin: 0;
+  overflow: hidden;
+}
