@@ -89,8 +89,4 @@ const openMenu=()=>{
 </template>
 
 <style scoped>
-body{
-  margin: 0;
-  overflow: hidden;
-}
 </style>

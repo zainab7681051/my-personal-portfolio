@@ -1,10 +1,10 @@
 [
   {
-    "title": "Invidious Instances",
-    "description": "App for fetching the free and open-source Invidious instances using the invidious API",
-    "imgSrc": "Invidious-Instances.png",
-    "githubUrl": "https://github.com/zainab7681051/get-invidious-instances",
-    "appUrl": "https://zainab7681051.github.io/get-invidious-instances/"
+    "title": "SimpleFreetube",
+    "description": "A frontend project in Vue and with the Invidious API for watching youtube content without logging into youtube.",
+    "imgSrc": "simplefreetube.png",
+    "githubUrl": "https://github.com/zainab7681051/simpleFreeTube",
+    "appUrl": "https://simplefreetube.web.app/"
   },
   {
     "title": "Responsive-Landing-Page-Hero-Section",
@@ -12,6 +12,13 @@
     "imgSrc": "responsive-landing-page.png",
     "githubUrl": "https://github.com/zainab7681051/Responsive-Landing-Page-Hero-Section",
     "appUrl": "https://zainab7681051.github.io/Responsive-Landing-Page-Hero-Section/"
+  },
+  {
+    "title": "Invidious Instances",
+    "description": "App for fetching the free and open-source Invidious instances using the invidious API",
+    "imgSrc": "Invidious-Instances.png",
+    "githubUrl": "https://github.com/zainab7681051/get-invidious-instances",
+    "appUrl": "https://zainab7681051.github.io/get-invidious-instances/"
   },
   {
     "title": "Landing Page With GSAP",
@@ -53,7 +60,7 @@
     "description": "A web App for viewing free documentaries fetched from various YouTube Channels.",
     "imgSrc": "free-documentaries.png",
     "githubUrl": "https://github.com/zainab7681051/free-documentaries",
-    "appUrl": "https://free-documentaries.onrender.com/"
+    "appUrl": ""
   },
   {
     "title": "todo app",

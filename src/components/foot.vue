@@ -35,7 +35,7 @@ const thisYear=new Date().getFullYear();
               <div class="mb-5 flex items-center justify-center">
                 <!-- github -->
                 <a
-                href="https://github.com/zainab7681051/"
+                href="https://github.com/zainab7681051/my-personal-portfolio"
                 target="_blank"
                 class="mr-3 flex h-9 w-9 items-center justify-center rounded-full  text-slate-300 hover:bg-primary hover:text-back-600 rounded-xl transition-all cursor-pointer duration-300 ease-linear;"
                 title="GitHub"
