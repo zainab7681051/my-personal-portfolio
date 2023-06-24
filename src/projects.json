@@ -12,13 +12,6 @@
     "imgSrc": "Invidious-Instances.png",
     "githubUrl": "https://github.com/zainab7681051/get-invidious-instances",
     "appUrl": "https://zainab7681051.github.io/get-invidious-instances/"
-  },
-  {
-    "title": "Responsive-Landing-Page-Hero-Section",
-    "description": "a responsive landing page in static HTML, CSS and JS with GSAP animation.",
-    "imgSrc": "responsive-landing-page.png",
-    "githubUrl": "https://github.com/zainab7681051/Responsive-Landing-Page-Hero-Section",
-    "appUrl": "https://zainab7681051.github.io/Responsive-Landing-Page-Hero-Section/"
   }, {
     "title": "Landing Page With GSAP",
     "description": "a simple landing page template in html/css/js with GSAP tool for basic animation on load.",
