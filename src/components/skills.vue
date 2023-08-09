@@ -23,7 +23,7 @@
             Back-End 🛠️
           </h3>
           <p class="mb-6 text-base font-medium text-secondary lg:text-lg">
-            Nodejs, Express, C#, .Net Core, RESTful API, Authentication,
+            Nodejs, Express, C#, ASP.Net Core, RESTful API, Authentication,
             Validation, Security, Object Relational Mapping, Relational
             Database, NoSql Database
           </p>

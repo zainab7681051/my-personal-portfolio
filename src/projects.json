@@ -1,5 +1,12 @@
 [
   {
+    "title": "DisneyMoviesWatchlist",
+    "description": "DisneyMoviesWatchlist is a server-side web application in C# - ASP.NET Core, Entity Framework and RazorPages. Users can create an account and make a watchist of their favourite Disney animation movies.",
+    "imgSrc": "DisneyMoviesWatchlist.png",
+    "githubUrl": "https://github.com/zainab7681051/DisneyMoviesWatchlist",
+    "appUrl": "https://disneymovieswatchlist.bsite.net/"
+  },
+  {
     "title": "SimpleFreetube",
     "description": "A frontend project in Vue and with the Invidious API for watching youtube content without logging into youtube.",
     "imgSrc": "simplefreetube.png",
