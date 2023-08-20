@@ -12,7 +12,7 @@
     "description": "DisneyMoviesWatchlist is a server-side web application in C# - ASP.NET Core, Entity Framework and RazorPages. Users can create an account and make a watchist of their favourite Disney animation movies.",
     "imgSrc": "DisneyMoviesWatchlist.png",
     "githubUrl": "https://github.com/zainab7681051/DisneyMoviesWatchlist",
-    "appUrl": "https://disneymovieswatchlist.bsite.net/"
+    "appUrl": "https://disneymovies.bsite.net/"
   },
   {
     "title": "SimpleFreetube",
