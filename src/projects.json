@@ -8,11 +8,11 @@
     "appUrl": "https://fileconvertertool.web.app"
   },
   {
-    "title": "DisneyMoviesApi",
-    "description": "The Disney Animation Movies API allows you to retrieve information about Disney animation movies, including their title, runtime, IMDb page, rating, and more. Please refer to the README file in the Github repository for information on how to use this Api or integrate it in an ASP.Net or NodeJS project",
-    "imgSrc": "DisneyMoviesApi1.png",
-    "githubUrl": "https://github.com/zainab7681051/DisneyMoviesApi",
-    "appUrl": "https://apidisneymovies.bsite.net/api/v1/movies/all"
+    "title": "SimpleFreetube",
+    "description": "A frontend project in Vue and with the Invidious API for watching youtube content without logging into youtube.",
+    "imgSrc": "simplefreetube.png",
+    "githubUrl": "https://github.com/zainab7681051/simpleFreeTube",
+    "appUrl": "https://simplefreetube.web.app/"
   },
   {
     "title": "DisneyMoviesWatchlist",
@@ -22,11 +22,11 @@
     "appUrl": "https://disneymovieslist.bsite.net/"
   },
   {
-    "title": "SimpleFreetube",
-    "description": "A frontend project in Vue and with the Invidious API for watching youtube content without logging into youtube.",
-    "imgSrc": "simplefreetube.png",
-    "githubUrl": "https://github.com/zainab7681051/simpleFreeTube",
-    "appUrl": "https://simplefreetube.web.app/"
+    "title": "DisneyMoviesApi",
+    "description": "The Disney Animation Movies API allows you to retrieve information about Disney animation movies, including their title, runtime, IMDb page, rating, and more. Please refer to the README file in the Github repository for information on how to use this Api or integrate it in an ASP.Net or NodeJS project",
+    "imgSrc": "DisneyMoviesApi1.png",
+    "githubUrl": "https://github.com/zainab7681051/DisneyMoviesApi",
+    "appUrl": "https://apidisneymovies.bsite.net/api/v1/movies/all"
   },
   {
     "title": "Invidious Instances",
