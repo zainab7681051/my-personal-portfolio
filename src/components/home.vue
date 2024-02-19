@@ -27,15 +27,7 @@
 <script setup></script>
 
 <style scoped>
-.top-text {
-  opacity: 0;
-  transform: translateY(-50vh);
-}
 .top-text.name {
   -webkit-text-stroke: 2px #000;
-}
-.bottom-text {
-  opacity: 0;
-  transform: translateX(200vw);
 }
 </style>
