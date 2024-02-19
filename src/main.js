@@ -1,3 +1,12 @@
+import {
+	createApp
+} from 'vue'
+import './style.css'
+import App from './App.vue'
+
+const vueApp = createApp(App)
+vueApp.mount('#app')
+
 // Function to play entry animation
 const entryAnime = () => {
   // Create a GSAP timeline with default easing
