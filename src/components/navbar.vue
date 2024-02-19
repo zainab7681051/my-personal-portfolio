@@ -24,9 +24,3 @@ import { Icon } from '@iconify/vue';
 
         
 </template>
-
-<style scoped>
-.navicons{
-    transform: translateY(-80vh);
-}
-</style>
