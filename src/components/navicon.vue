@@ -6,7 +6,6 @@ defineProps({
     idprop:String
 })
 </script>
-
 <template>
     <a :href="idprop" className="custom-icon group navicon">
         <icon :icon="iconName" width="42" height="42"></icon>
