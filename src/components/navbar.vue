@@ -12,8 +12,7 @@ import { Icon } from '@iconify/vue';
             <navicon iconName="bi:briefcase-fill" idprop="#projects" tip="My Work & Projects"/>
             <navicon iconName="entypo:email" idprop="#contact" tip="Contact Me"/>
             
-            <a href="https://firebasestorage.googleapis.com/v0/b/zainab-portfolio.appspot.com/o/Resume.pdf?alt=media&token=b1a32688-8e90-49f5-8014-129dbcd561c6" 
-            target="_blank" class="custom-icon group navicon">
+            <a class="custom-icon group navicon">
                 <icon icon="bi:cloud-download-fill" width="42" height="42"></icon>
                 <span class="tooltip group-hover:scale-100">
                     Download my CV
